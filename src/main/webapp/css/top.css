@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+}
+.header {
+    justify-content: space-between;
+    display: flex;
+    font-family: "Gill Sans", fantasy;
+    color: seashell;
+    background: #3776ba;
+    padding: 10px;
+}
+.header.item.logo {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.header.item {
+    font-size: 18px;
+    padding: 10px 15px;
+}
+.header.item:hover {
+    background-color: #ba7117;
+    border-radius: 3px;
+    font-size: 24px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.content.item {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-basis: calc(33.3% - 30px * 2);*/
+    background: #000;
+    width: 200px;
+    height: 200px;
+}
+
